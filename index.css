@@ -1,0 +1,32 @@
+.app-title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 24px;
+    }
+    
+    .tally-app {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    h2 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+    .card-overview {
+      max-width: 300px;
+    }
+  
+    .card-overview small {
+      color: var(--sl-color-neutral-500);
+    }
+  
+    .card-overview [slot='footer'] {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    
